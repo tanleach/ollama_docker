@@ -27,3 +27,6 @@ docker exec -it ollama ollama pull qwen2.5-coder:7b
 
 echo "Adding llama3.2:3b..."
 docker exec -it ollama ollama pull llama3.2:3b
+
+echo "Adding qwq:32b..."
+docker exec -it ollama ollama pull qwq:32b
